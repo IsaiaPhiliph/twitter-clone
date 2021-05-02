@@ -1,0 +1,59 @@
+.login {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login__container form {
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: var(--twitter-bg);
+  padding: 20px;
+  border-radius: 20px;
+}
+.login__container button {
+  align-self: stretch;
+  background-color: var(--twitter-color);
+  border: none;
+  border-radius: 9999px;
+  padding: 15px 15px;
+
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  outline: none;
+  margin-bottom: 1rem;
+}
+.login__container form input {
+  flex: 1;
+  border: none;
+  background-color: #fff;
+  font-size: 18px;
+  padding: 15px 15px;
+  border-radius: 9999px;
+  margin-bottom: 1rem;
+  border: 2px solid var(--twitter-bg);
+  outline: none;
+  align-self: stretch;
+}
+.login__container form input:focus {
+  border-color: var(--twitter-color);
+}
+.login__container .MuiSvgIcon-root {
+  margin-bottom: 1rem;
+  font-size: 30px;
+  color: var(--twitter-color);
+}
+input:-internal-autofill-selected {
+  background-color: white !important;
+}
+.login__hl-text {
+  color: var(--twitter-color);
+  font-weight: bold;
+  cursor: pointer;
+}

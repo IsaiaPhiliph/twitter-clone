@@ -1,0 +1,12 @@
+.sidebarCurrentUser {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sidebarCurrentUser__names {
+  display: flex;
+  flex-direction: column;
+}
+.sidebarCurrentUser__namesIcon {
+  margin-left: auto;
+}
