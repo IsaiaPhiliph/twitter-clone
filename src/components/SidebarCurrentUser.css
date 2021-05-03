@@ -10,3 +10,6 @@
 .sidebarCurrentUser__namesIcon {
   margin-left: auto;
 }
+tooltip__container {
+  width: 100%;
+}

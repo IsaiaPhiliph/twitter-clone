@@ -34,7 +34,6 @@ function Feed() {
       <div className="feed__header">
         <h2>Inicio</h2>
       </div>
-      {/* Tweet box */}
       <TweetBox />
       {/* Tweets */}
       {docs &&
